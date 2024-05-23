@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.profile-w-h {
+  @apply w-10 h-10;
+}
+.hero-profile {
+  @apply w-[15rem] h-[15rem] shadow-md border-transparent;
+}
+
+.btn {
+  @apply cursor-pointer tracking-wider font-semibold rounded;
+}
